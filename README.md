@@ -23,3 +23,16 @@ Eine statische Seite (`index.html`), die bei jedem Aufruf ein neues, animiertes 
 | LINK | Link auf genau dieses UI kopieren (`?seed=123&genre=fantasy`) |
 
 Keine Abhängigkeiten – `index.html` im Browser öffnen oder per GitHub Pages ausliefern.
+
+---
+
+# Agent Forge (`agents.html`)
+
+Mehrere farbige Maus-Cursor arbeiten wie KI-Agenten gleichzeitig an einer Gaming-Website: Sie ziehen Boxen auf,
+tippen Texte, generieren Artwork (Pixel-zu-scharf), füllen Diagramme und Statusbalken. Jeder Durchlauf erzeugt eine andere Seite.
+
+- **Konfig-Seite** (`agents.html#setup`): Anzahl und Namen der Agenten, Seitentyp (Landingpage, Esports-Dashboard,
+  Item-Shop, Ingame-HUD oder Zufall), Stil (Neon, Cyberpunk, Fantasy, Arcade, Toxic oder Zufall), Tempo,
+  Sprechblasen, Raster & Maße, Aktivitäts-Log, Endlos-Modus, Sound und optionaler Seed. Die Einstellungen bleiben im Browser gespeichert.
+- **Generierte Seite** (`agents.html#build`): Browserfenster, in dem die Agenten bauen, daneben Squad-Status und Aktivitäts-Log.
+  Steuerung: Pause, Tempo, Neue Seite, zurück zur Konfig.
